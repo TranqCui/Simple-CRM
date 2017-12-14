@@ -10,5 +10,8 @@ import java.util.List;
  */
 public interface CustomerDao {
     Integer countCustomerByQueryVo(QueryVo vo);
-    List<Customer> selectCustomerByQueytVo(QueryVo vo);
+    List<Customer> selectCustomerByQueryVo(QueryVo vo);
+    Customer selectCustomerById(Integer id);
+    void updateCustomer(Customer customer);
+    void deleteCustomer(Integer id);
 }

@@ -9,4 +9,7 @@ import cn.pojo.QueryVo;
  */
 public interface CustomerService {
     Page<Customer> selectPageByQueryVo(QueryVo vo);
+    Customer selectCustomerById(Integer id);
+    void updateCustomer(Customer customer);
+    void deleteCustomer(Integer id);
 }

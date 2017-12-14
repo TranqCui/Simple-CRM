@@ -36,8 +36,23 @@ public class CustomerServiceImpl implements CustomerService {
             }
         }
         page.setTotal(customerDao.countCustomerByQueryVo(vo));
-        page.setRows(customerDao.selectCustomerByQueytVo(vo));
+        page.setRows(customerDao.selectCustomerByQueryVo(vo));
         return page;
+    }
+
+    @Override
+    public Customer selectCustomerById(Integer id) {
+        return customerDao.selectCustomerById(id);
+    }
+
+    @Override
+    public void updateCustomer(Customer customer) {
+        customerDao.updateCustomer(customer);
+    }
+
+    @Override
+    public void deleteCustomer(Integer id) {
+        customerDao.deleteCustomer(id);
     }
 }
 
