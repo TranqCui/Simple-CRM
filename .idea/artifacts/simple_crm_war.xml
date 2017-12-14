@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="simple_crm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SIMLPE.war">
+      <element id="artifact" artifact-name="simple_crm:war exploded" />
+    </root>
+  </artifact>
+</component>
