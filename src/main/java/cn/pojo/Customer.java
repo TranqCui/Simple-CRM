@@ -1,0 +1,26 @@
+package cn.pojo;
+
+import lombok.Data;
+
+import java.util.Date;
+
+/**
+ * Created by cuibinbin on 2017/12/14.
+ */
+@Data
+public class Customer {
+    private Long cust_id;
+    private String cust_name;
+    private Long cust_user_id;
+    private Long cust_create_id;
+    private String cust_source;
+    private String cust_industry;
+    private String cust_level;
+    private String cust_linkman;
+    private String cust_phone;
+    private String cust_mobile;
+    private String cust_zipcode;
+    private String cust_address;
+    private Date cust_createtime;
+
+}

@@ -30,7 +30,7 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer" id="mapperScannerConfigurer">
-        <property name="basePackage" value="mapper"></property>
+        <property name="basePackage" value="cn.mapper"></property>
     </bean>
 
     <!--service-->

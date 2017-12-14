@@ -3,5 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    
+    <typeAliases>
+        <typeAlias type="cn.pojo.BaseDict" alias="BaseDict"></typeAlias>
+        <typeAlias type="cn.pojo.Customer" alias="Customer"></typeAlias>
+        <typeAlias type="cn.pojo.QueryVo" alias="QueryVo"></typeAlias>
+
+    </typeAliases>
 </configuration>
